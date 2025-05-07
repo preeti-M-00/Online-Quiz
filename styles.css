@@ -1,0 +1,93 @@
+/*-----default style-----*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(200deg, #159957,#155799);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background: #000000;
+    color: #fff;
+    opacity: 0.8; /*----so that I can maintain a few transparency in the box-------*/
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.start-screen h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.start-screen h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #73C7C7;
+    color: #000;
+    border: 0;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s; /*-----wanted a slight transition of color change when hovered over the buttons------*/
+    display: block;
+    width: 150px;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#answer-buttons .btn {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+}
+
+.correct {
+    background: #40e889;
+}
+
+.incorrect {
+    background: #ff9393;
+}
+
+#next-btn {
+    display: none;
+    margin: 20px auto 0;
+}
