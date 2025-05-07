@@ -4,10 +4,10 @@ A simple and interactive quiz application built to test users' knowledge through
 **Live Demo**: [https://preeti-m-00.github.io/Online-Quiz/]
 
 ## Features
--Multiple-choice quiz format
--Score tracking
--Question navigation with the Next button
--Basic UI/UX for clean user interaction
+- Multiple-choice quiz format
+- Score tracking
+- Question navigation with the Next button
+- Basic UI/UX for clean user interaction
 
 ## Tech Stack
 - HTML
