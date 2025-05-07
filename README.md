@@ -3,7 +3,7 @@ A simple and interactive quiz application built to test users' knowledge through
 
 **Live Demo**: [https://preeti-m-00.github.io/Online-Quiz/]
 
-## Features:
+## Features
 -Multiple-choice quiz format
 -Score tracking
 -Question navigation with the Next button
